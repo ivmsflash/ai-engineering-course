@@ -18,8 +18,7 @@ from openai import OpenAI
 
 
 # ШАГ 2: Раскомментируй строку ниже — она загружает ключи из .env
-# load_dotenv(Path(__file__).parent.parent / ".env")
-load_dotenv(Path(__file__).parent / ".env")
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 
 # ШАГ 3: Укажи вопрос, который отправим в оба провайдера
