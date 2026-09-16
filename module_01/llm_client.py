@@ -149,7 +149,6 @@ def ask_llm(question: str) -> tuple:
         print("    Переключаюсь на резервный...")
         result = call_huggingface(question)
         provider = "HuggingFace"
-    # --- конец блока ---
 
     latency = time.time() - start
     return result, provider, latency
